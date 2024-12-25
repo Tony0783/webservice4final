@@ -1,4 +1,4 @@
-name: Deploy Vue.js App to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -8,7 +8,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
